@@ -51,15 +51,15 @@ async function run(): Promise<void> {
               "fields": [
                 {
                   "type": "mrkdwn",
-                  "text": `*GitHub Actor:* ${actor}`
-                },
-                {
-                  "type": "mrkdwn",
                   "text": `*Repo:*\n${github_server_url}/${github_repos}`
                 },
                 { 
                   "type": "mrkdwn",
                   "text": `*Actions URL:*\n${actionsUrl}` 
+                },
+                {
+                  "type": "mrkdwn",
+                  "text": `*GitHub Actor:* ${actor}`
                 },
                 { 
                  "type": "mrkdwn",
