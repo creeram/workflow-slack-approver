@@ -1,0 +1,10 @@
+name: Workflow-Slack-Approver
+description: Custom action to send approval request to Slack from GitHub Actions
+author: creeram
+runs:
+  using: "node16"
+  main: "dist/index.js"
+branding:
+  icon: plus
+  color: green
+
